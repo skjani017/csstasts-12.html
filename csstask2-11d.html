@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            
+            width: 700px;
+            height: 700px;
+        }
+        .foot{
+         background-image: url(.foot\ ball.jpg);
+            width: 100px;
+            height: 100px;
+            animation:demo;
+            animation-duration: 4s;
+            /* animation-direction: reverse; */
+        }
+        @keyframes demo {
+            from{
+                background-image:url(./foot\ ball.jpg);
+                background-size: cover;
+                border-radius: 50px;
+                transform: translate(20px);
+            }
+            to{
+                background-image:url(./foot\ ball.jpg);
+                background-size: cover;
+                 border-radius: 50px;
+                transform: translate(300px,400px);     
+        }
+
+
+    }
+
+    .foot1{
+        background-image: url(./basket\ ball.jpg);
+        width: 100px;
+        height: 100px;
+        animation-name: naru;
+        animation-duration: 7s;  
+    }
+    @keyframes naru {
+        from{
+            background-image: url(./basket\ ball.jpg);
+            background-size: cover;
+            border-radius: 50px;
+            transform: translate(0px);
+        }
+        to{
+            background-image:url(./basket\ ball.jpg);
+                background-size: cover;
+                 border-radius: 50px;
+                transform: translate(100px,790px);     
+        }
+
+    }
+    </style>
+</head>
+<body>
+   <div>
+    <div class="foot"></div>
+    <div class="foot1"></div>
+
+    
+   </div> 
+</body>
+</html>
